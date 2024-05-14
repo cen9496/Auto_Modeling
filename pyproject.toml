@@ -1,0 +1,20 @@
+[build-system]
+
+requires = [
+	"pandas",
+	"numpy",
+	"scipy",
+	"setuptools"
+]
+
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Auto_Modeling"
+version = "0.0.0.dev1"
+authors = [
+	{ name="Christopher Napier", email="cenapier9496@gmail.com" },
+]
+description = "A package designed to make automatic model building more accessable"
+readme = "README.md"
+requires-python = ">=3.11"
